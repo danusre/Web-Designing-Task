@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration form</title>
+    <style>
+        h1{
+            color:rgb(165, 5, 165);
+        }
+        fieldset{
+            background-color: red;
+            border: 2px dashed black;
+            color:white;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+    </style>
+</head>
+<body>
+     <h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Student Registration Form Using Table in Html</h1>
+    
+    <form action="/HTML/form.html" target="_self">
+        <fieldset>      <label for="fname">First Name</label>
+        <input type="text" id="fname" name="fname" placeholder="Danusree" maxlength="50" required><label for="fname"> (Max 50 Characters Allowed)</label>
+        <br><br>
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lname" placeholder="Karthikeyan"  maxlength="50" required><label for="fname"> (Max 50 Characters Allowed)</label>
+        <br><br>
+        <label for="em">Email ID</label>
+        <input type="email" id="em" name="em" placeholder="danusreekarthi@gmail.com">
+        <br><br>
+        <label for="num">Mobile Number</label>
+        <input type="tel" id="num" name="num" maxlength="10"><label for="num">(10 Digit Allowed)</label>
+        <br><br>
+        <label for="gen">Gender</label>
+        <input type="radio" name="gender" id="gen">Male
+        <input type="radio" name="gender" id="gen">Female
+        <br><br>
+        <label for="dob">Date of Birth</label>
+        <select name="date" id="dob">
+            <option value="day">Day</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+        </select>
+        <select name="month" id="dob">
+            <option value="month">Month</option>
+            <option value="jan">january</option>
+            <option value="feb">February</option>
+            <option value="mar">March</option>
+        </select>
+        <select name="year" id="dob">
+            <option value="year">year</option>
+            <option value="2001">2001</option>
+            <option value="2002">2002</option>
+            <option value="2003">2003</option>
+        </select>
+        <br><br>
+        <label for="adds">Address</label>
+        <textarea type="text" id="adds" name="adds" rows="5" cols="30"></textarea>
+        <br><br>
+        <label for="cit">City</label>
+        <input type="text" id="cit" name="cit" placeholder="Bangalore"><lable for="cit" maxlength="50"> (Max 50 Characters Allowed)</lable>
+        <br><br>
+        <label for="pin">Pin Code</label>
+        <input type="number" id="pin" name="pin" placeholder="636001"><label for="pin" maxlenght="6"> (Max 6 Numbers Allowed )</label>
+        <br><br>
+        <label for="stat">State</label>
+        <input type="text" id="stat" name="stat" placeholder="Salem" maxlength="50"> <label for="stat"> (Max 50 Character Allowed)</label>
+        <br><br>
+        <label for="con">Country</label>
+        <input type="text" id="con" name="con" placeholder="India">
+        <br><br>
+        <label for="hobb">Hobbies</label>
+        <input type="checkbox">Drawing
+        <input type="checkbox">Singing
+        <input type="checkbox">Dancing
+        <input type="checkbox">Sketching
+        <input type="checkbox">others
+        <input type="text" id="hobb" name="hobb" placeholder="Ex:Teaching"><label for="hobb"> (Max 50 characters Allowed)</label>
+        <br><br>
+        <label for="quali">Qualification</label><br>
+        <input type="checkbox">High School(10th)<br>
+        <input type="checkbox">Higher School(12th)<br>
+        <input type="checkbox">Graduation(Bachelor)<br>
+        <input type="checkbox">Post Graduation(Master)<br>
+        <input type="checkbox">Phd
+        <br><br>
+        <label for="course">Course Applied for</label><br>
+        <input type="checkbox">BCA(Bachelor of Computer Appplications)<br>
+        <input type="checkbox">B.Com(Bachelor of Commerce)<br>
+        <input type="checkbox">B.Sc(Bachelor of Computer Science)<br>
+        <input type="checkbox">MCA(Master of Computer Application)<br>
+        <input type="checkbox">M.Com(Master of Commerce)<br>
+        <input type="checkbox">M.Sc(Master of Computer Science)<br>
+        <input type="checkbox">MA(Master of Arts)<br>
+        <br><br>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+        </fieldset>  
+    </form>
+    
+</body>
+</html>
